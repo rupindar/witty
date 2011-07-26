@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -ggdb   CMakeFiles/dbo.wt.dir/login.C.o  -o dbo.wt -rdynamic -lwthttp -lwt -lwtdbo -lwtdbosqlite3 

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rupinder/Desktop/linking/source/login.C
+boost/thread.hpp
+-
+Wt/WApplication
+-
+Wt/WContainerWidget
+-
+Wt/WStackedWidget
+-
+Wt/WWidget
+-
+Wt/WTemplate
+-
+Wt/WMenu
+-
+Wt/WDateTime
+-
+Wt/WText
+-
+Wt/WBreak
+-
+Wt/WImage
+-
+
