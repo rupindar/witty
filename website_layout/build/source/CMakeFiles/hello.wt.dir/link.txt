@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/hello.wt.dir/hello.C.o  -o hello.wt -rdynamic -lwthttp -lwt 

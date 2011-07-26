@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rupinder/Desktop/website5/source/hello.C
+Wt/WApplication
+-
+Wt/WBorderLayout
+-
+Wt/WText
+-
+Wt/WHBoxLayout
+-
+Wt/WAnchor
+-
+Wt/WImage
+-
+Wt/WMessageBox
+-
+Wt/Ext/Panel
+-
+Wt/WFitLayout
+-
+
