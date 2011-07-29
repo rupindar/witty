@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+
+  <title>rupindar/witty @ GitHub</title>
+
+  <style type="text/css">
+    body {
+      margin-top: 1.0em;
+      background-color: #dcc9f8;
+      font-family: Helvetica, Arial, FreeSans, san-serif;
+      color: #000000;
+    }
+    #container {
+      margin: 0 auto;
+      width: 700px;
+    }
+    h1 { font-size: 3.8em; color: #233607; margin-bottom: 3px; }
+    h1 .small { font-size: 0.4em; }
+    h1 a { text-decoration: none }
+    h2 { font-size: 1.5em; color: #233607; }
+    h3 { text-align: center; color: #233607; }
+    a { color: #233607; }
+    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
+    .download { float: right; }
+    pre { background: #000; color: #fff; padding: 15px;}
+    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
+    .footer { text-align:center; padding-top:30px; font-style: italic; }
+  </style>
+</head>
+
+<body>
+  <a href="http://github.com/rupindar/witty"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+
+  <div id="container">
+
+    <div class="download">
+      <a href="http://github.com/rupindar/witty/zipball/master">
+        <img border="0" width="90" src="http://github.com/images/modules/download/zip.png"></a>
+      <a href="http://github.com/rupindar/witty/tarball/master">
+        <img border="0" width="90" src="http://github.com/images/modules/download/tar.png"></a>
+    </div>
+
+    <h1><a href="http://github.com/rupindar/witty">witty</a>
+      <span class="small">by <a href="http://github.com/rupindar">rupindar</a></span></h1>
+
+    <div class="description">
+      Wt (pronounced as witty) is a C++ library for developing web applications.
+
+The API is widget-centric and uses well-tested patterns of desktop GUI development tailored to the web. To the developer, it offers abstraction of web-specific implementation details, including client-server protocols, event handling, graphics support, graceful degradation (or progressive enhancement), and URL handling.
+
+Unlike many page-based frameworks, Wt was designed for creating stateful applications that are at the same time highly interactive (leveraging techinques such as WebSockets and Ajax to their fullest) and accessible (supporting plain HTML browsers), using automatic graceful degradation or progressive enhancement. Things that are natural and simple with Wt would require an impractical amount of effort otherwise: switching widgets using animations, while being perfectly indexed by search robots with clean URLs, or having a persistent chat widget open throughout, that even works in legacy browsers like Microsoft Internet Explorer 6.
+
+The library comes with an application server that acts as a stand-alone Http(s)/WebSockets server or integrates through FastCGI with other web servers.
+    </div>
+
+    <p>Interactive, secure and accessible
+
+Page-based web frameworks (Django, Ruby on Rails, PHP, etc...) do not attempt to abstract underlying technologies (HTML/XHTML, JavaScript, CSS, Ajax, WebSockets, Comet, Forms, DHTML, SVG/VML/Canvas). As a consequence, a web developer needs to be familiar with all of these evolving technologies and is also responsible for graceful degradation when browser support is lacking. The structure of many web applications still follows mostly the page-centric paradigm of early day HTML. This means that not only will you need to implement a controller to indicate how a user moves from page to page, but when using advanced Ajax or WebSockets, you will need to design and maintain your client-server communication.
+
+Pure Ajax frameworks on the other hand require tedious JavaScript programming to deal with browser quirks, and client-server programming to interact securely with server resources. These applications usually are not compliant with accessibility guidelines and cannot be indexed by a search robot.
+
+Generating HTML code or filling HTML templates is prone to security problems such as XSS (Cross-Site-Scripting) by unwillingly allowing JavaScript to be inserted in the page, and CSRF (Cross-Site Request Forgery) by trusting cookies for authentication. These security problems are hard to avoid in traditional frameworks when as a developer you need to implement JavaScript functionality and thus the framework cannot filter it out.
+
+In contrast, a web application developed with Wt is developed against a C++ API, and the library provides the necessary HTML, CSS, Javascript, CGI, SVG/VML/Canvas and Ajax code. The responsibility of writing secure and browser-portable web applications is carried by Wt. For example, if available, Wt will maximally use JavaScript, Ajax and even WebSockets, but applications developed using Wt will also function correctly when JavaScript is not available. Wt will start with a plain HTML/CGI application and progressively enhance to a rich Ajax application if possible. With Wt, security is built-in and by default.
+
+Typical use scenarios:
+
+    High performance, complex web applications which are fully personalized (and thus cannot benefit from caching), fully Ajax enabled and at the same time entirely accessible and Search Engine Optimized.
+    Web-based GUIs for embedded systems benefit from the low footprint of a C++ web application server.
+    Web-based GUIs that require integration with (existing) C++ libraries, for example for scientific or engineering applications, or existing C++ desktop applications.
+</p><h2>Authors</h2>
+<p>Rupindar Kaur<br/>      </p>
+<h2>Contact</h2>
+<p>rupjat@gmail.com</p>
+
+
+    <h2>Download</h2>
+    <p>
+      You can download this project in either
+      <a href="http://github.com/rupindar/witty/zipball/master">zip</a> or
+      <a href="http://github.com/rupindar/witty/tarball/master">tar</a> formats.
+    </p>
+    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
+      by running:
+      <pre>$ git clone git://github.com/rupindar/witty</pre>
+    </p>
+
+    <div class="footer">
+      get the source code on GitHub : <a href="http://github.com/rupindar/witty">rupindar/witty</a>
+    </div>
+
+  </div>
+
+  
+</body>
+</html>
